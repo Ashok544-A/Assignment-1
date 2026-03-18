@@ -16,7 +16,7 @@ jobs:
         python-version: "3.10"
     - name: revert change
       run: |
-        git revert $a116b10bac4f5a1daf48e0a7938fe771ff3b1bc0
+        git revert -m 1 $a116b10bac4f5a1daf48e0a7938fe771ff3b1bc0
         
     - name: Run Hello World
       run: |
